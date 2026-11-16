@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md. Mostakim — Software Developer &amp; CSE Student</title>
+  <meta name="description" content="Personal developer portfolio of Md. Mostakim, a Computer Science and Engineering student at AIUB passionate about software development, problem-solving, and smart technologies.">
+  <meta name="author" content="Md. Mostakim">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="Md. Mostakim — Software Developer &amp; CSE Student">
+  <meta property="og:description" content="Computer Science and Engineering student passionate about software development, problem-solving, embedded systems, IoT, and smart technologies.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/profile.jpg">
+
+  <!-- Theme & Favicon -->
+  <meta name="theme-color" content="#F5F7FA">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Typography: Inter with clean system fallback -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Progressive enhancement flag for scroll reveal -->
+  <script>
+    document.documentElement.classList.add('js-enabled');
+  </script>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <nav class="primary-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link is-active" data-section="home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+          <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+          <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+          <li><a href="#interests" class="nav-link" data-section="interests">Interests</a></li>
+          <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+          <li><a href="#certificates" class="nav-link" data-section="certificates">Certificates</a></li>
+          <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button
+        type="button"
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+      >
+        <span class="menu-toggle-bar" aria-hidden="true"></span>
+        <span class="menu-toggle-bar" aria-hidden="true"></span>
+        <span class="menu-toggle-bar" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation" aria-hidden="true">
+      <div class="container">
+        <ul class="mobile-nav-list">
+          <li><a href="#home" class="mobile-nav-link is-active" data-section="home" tabindex="-1">Home</a></li>
+          <li><a href="#about" class="mobile-nav-link" data-section="about" tabindex="-1">About</a></li>
+          <li><a href="#skills" class="mobile-nav-link" data-section="skills" tabindex="-1">Skills</a></li>
+          <li><a href="#projects" class="mobile-nav-link" data-section="projects" tabindex="-1">Projects</a></li>
+          <li><a href="#interests" class="mobile-nav-link" data-section="interests" tabindex="-1">Interests</a></li>
+          <li><a href="#education" class="mobile-nav-link" data-section="education" tabindex="-1">Education</a></li>
+          <li><a href="#certificates" class="mobile-nav-link" data-section="certificates" tabindex="-1">Certificates</a></li>
+          <li><a href="#contact" class="mobile-nav-link" data-section="contact" tabindex="-1">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" id="home" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-eyebrow hero-animate" style="--delay: 0ms;">HELLO, I'M</p>
+          <h1 class="hero-name hero-animate" id="hero-heading" style="--delay: 70ms;">Md. Mostakim</h1>
+          <p class="hero-title hero-animate" style="--delay: 140ms;">
+            Software Developer <span class="title-divider" aria-hidden="true">|</span> CSE Student
+          </p>
+          <p class="hero-description hero-animate" style="--delay: 210ms;">
+            I'm a Computer Science and Engineering student passionate about software development, problem-solving, and smart technologies. I enjoy exploring software, electronics, embedded systems, IoT, and intelligent automation to build practical solutions for real-world challenges.
+          </p>
+
+          <div class="hero-actions hero-animate" style="--delay: 280ms;">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <svg class="btn-icon" viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M3.5 8h9"/>
+                <path d="M8.5 4l4 4-4 4"/>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+
+          <ul class="hero-socials hero-animate" style="--delay: 350ms;" aria-label="Social Profiles">
+            <li>
+              <a href="https://github.com/mostakim6817" target="_blank" rel="noopener noreferrer" class="social-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.49 0-.24-.01-1.05-.01-1.9-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.85.09-.66.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.35 9.35 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.49A10.22 10.22 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z"/>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mostakimx/" target="_blank" rel="noopener noreferrer" class="social-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17.34V10.17H5.95V17.34H8.34M7.14 9.19A1.38 1.38 0 1 0 7.14 6.42 1.38 1.38 0 0 0 7.14 9.19M18.05 17.34V13.4C18.05 11.29 16.92 10.01 15.27 10.01A2.74 2.74 0 0 0 12.79 11.38V10.17H10.4V17.34H12.79V13.68C12.79 12.71 13.01 11.77 14.2 11.77 15.37 11.77 15.66 12.86 15.66 13.74V17.34H18.05Z"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://codeforces.com/profile/mostakim.x" target="_blank" rel="noopener noreferrer" class="social-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <rect x="3" y="10" width="4.5" height="10" rx="1"/>
+                  <rect x="9.75" y="4" width="4.5" height="16" rx="1"/>
+                  <rect x="16.5" y="13" width="4.5" height="7" rx="1"/>
+                </svg>
+                <span>Codeforces</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.hackerrank.com/profile/edu_mostakim" target="_blank" rel="noopener noreferrer" class="social-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 2.5 20.5 7.4v9.2L12 21.5 3.5 16.6V7.4L12 2.5Z"/>
+                  <path d="M9 8.5v7M15 8.5v7M9 12h6"/>
+                </svg>
+                <span>HackerRank</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/8801921090769" target="_blank" rel="noopener noreferrer" class="social-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M20.5 11.8a8.5 8.5 0 0 1-12.5 7.5L3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 20.5 11.8Z"/>
+                  <path d="M9.3 8.9c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c-.1.1-.2.3-.1.5.4.8 1.2 1.6 2 2 .2.1.4 0 .5-.1l.6-.5c.2-.2.4-.2.6-.1l1.6.7c.3.1.4.3.4.5v.5c0 .3-.1.5-.4.7-.5.4-1.3.5-2.1.2-1.8-.6-3.7-2.4-4.4-4.3-.3-.8-.2-1.6.1-2.1Z"/>
+                </svg>
+                <span>WhatsApp</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-media hero-animate-media" style="--delay: 160ms;">
+          <figure class="portrait-frame">
+            <div class="portrait-inner">
+              <img
+                src="assets/images/profile.jpg"
+                alt="Portrait of Md. Mostakim"
+                width="900"
+                height="1037"
+                decoding="async"
+                fetchpriority="high"
+              >
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section section-surface" id="about" aria-labelledby="about-heading">
+      <div class="container about-layout reveal">
+        <div class="section-header-aside">
+          <span class="section-accent-line" aria-hidden="true"></span>
+          <h2 class="section-title" id="about-heading">About Me</h2>
+        </div>
+
+        <div class="about-body">
+          <p class="about-prose">
+            I'm Md. Mostakim, a Computer Science and Engineering student at American International University-Bangladesh (AIUB). I enjoy learning programming, developing practical applications, and exploring technologies that combine software and hardware. Currently, I am also learning Data Science and Machine Learning with Python to expand my technical foundation. My goal is to continuously improve my technical skills and build useful solutions through technology.
+          </p>
+
+          <dl class="about-facts">
+            <div class="about-fact">
+              <dt>Institution</dt>
+              <dd>American International University-Bangladesh (AIUB)</dd>
+            </div>
+            <div class="about-fact">
+              <dt>Field of Study</dt>
+              <dd>BSc in Computer Science &amp; Engineering</dd>
+            </div>
+            <div class="about-fact">
+              <dt>Based In</dt>
+              <dd>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=164%2F2%2C+Road+8%2C+Block+C%2C+Bashundhara+R%2FA%2C+Dhaka%2C+Bangladesh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="location-link"
+                  aria-label="Open Bashundhara R/A, Dhaka, Bangladesh in Google Maps"
+                >Bashundhara R/A, Dhaka, Bangladesh</a>
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section section-canvas" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-accent-line" aria-hidden="true"></span>
+          <h2 class="section-title" id="skills-heading">Technical Skills</h2>
+          <p class="section-subtitle">
+            Programming languages, web technologies, tools, and foundational concepts I work with.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal" style="--stagger: 0;">
+            <h3 class="skill-category">Programming Languages</h3>
+            <ul class="skill-list">
+              <li class="skill-tag">C</li>
+              <li class="skill-tag">C++</li>
+              <li class="skill-tag">C#</li>
+              <li class="skill-tag">Java</li>
+              <li class="skill-tag">Python</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" style="--stagger: 1;">
+            <h3 class="skill-category">Web Development</h3>
+            <ul class="skill-list">
+              <li class="skill-tag">HTML</li>
+              <li class="skill-tag">CSS</li>
+              <li class="skill-tag">JavaScript</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" style="--stagger: 2;">
+            <h3 class="skill-category">Database</h3>
+            <ul class="skill-list">
+              <li class="skill-tag">SQL</li>
+              <li class="skill-tag">Firebase</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" style="--stagger: 3;">
+            <h3 class="skill-category">Tools &amp; Platforms</h3>
+            <ul class="skill-list">
+              <li class="skill-tag">Git</li>
+              <li class="skill-tag">GitHub</li>
+              <li class="skill-tag">Visual Studio Code</li>
+              <li class="skill-tag">Linux</li>
+              <li class="skill-tag">Windows</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" style="--stagger: 4;">
+            <h3 class="skill-category">Core Concepts</h3>
+            <ul class="skill-list">
+              <li class="skill-tag">Object-Oriented Programming</li>
+              <li class="skill-tag">Basic Data Structures and Algorithms</li>
+              <li class="skill-tag">Problem Solving</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" style="--stagger: 5;">
+            <div class="skill-category-row">
+              <h3 class="skill-category">Data Science &amp; ML</h3>
+              <span class="skill-status">Learning</span>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-tag">Machine Learning Fundamentals</li>
+              <li class="skill-tag">Data Science with Python</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section section-surface" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-accent-line" aria-hidden="true"></span>
+          <h2 class="section-title" id="projects-heading">Featured Projects</h2>
+          <p class="section-subtitle">
+            Personal and academic software projects focused on clean utility and practical problem-solving.
+          </p>
+        </div>
+
+        <div class="projects-stack">
+          <!-- Project 1: Featured Primary Project -->
+          <article class="project-card project-card-featured reveal">
+            <div class="project-featured-main">
+              <div class="project-meta">
+                <span class="project-category">Personal Project</span>
+              </div>
+              <h3 class="project-title">Exam Planner</h3>
+              <p class="project-description">
+                A web-based examination management platform designed to create and manage MCQ examinations, conduct timed tests, and review student attempts.
+              </p>
+
+              <ul class="tech-list" aria-label="Technologies used">
+                <li class="tech-tag">HTML</li>
+                <li class="tech-tag">CSS</li>
+                <li class="tech-tag">JavaScript</li>
+                <li class="tech-tag">Firebase / Firestore</li>
+              </ul>
+
+              <div class="project-links">
+                <a
+                  href="https://mostakim6817.github.io/examplanner/admin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link project-link-primary"
+                >
+                  <span>Live Demo</span>
+                  <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M6 3.5h6.5V10"/>
+                    <path d="M12.5 3.5 4 12"/>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/mostakim6817/examplanner/admin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <span>GitHub</span>
+                  <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M6 3.5h6.5V10"/>
+                    <path d="M12.5 3.5 4 12"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-featured-aside">
+              <h4 class="project-features-heading">Key Features</h4>
+              <ul class="project-features-list">
+                <li>Admin exam management</li>
+                <li>MCQ questions through JSON import</li>
+                <li>Unique examination links</li>
+                <li>Timed examination system</li>
+                <li>Student attempt history</li>
+                <li>Correct, incorrect, and skipped answer analysis</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Projects 2, 3, 4 Grid -->
+          <div class="projects-grid">
+            <!-- Project 2 -->
+            <article class="project-card reveal" style="--stagger: 0;">
+              <div class="project-meta">
+                <span class="project-category project-category-academic">Academic Project</span>
+              </div>
+              <h3 class="project-title">VM Management System</h3>
+              <p class="project-description">
+                A Java-based academic project developed as part of Java and Object-Oriented Programming coursework.
+              </p>
+
+              <div class="project-footer">
+                <ul class="tech-list" aria-label="Technologies used">
+                  <li class="tech-tag">Java</li>
+                  <li class="tech-tag">OOP</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://drive.google.com/drive/folders/1A19KLj1iGBRK3_WsgOnhImGou-ZeTWS7?usp=drive_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    <span>Source Code</span>
+                    <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M6 3.5h6.5V10"/>
+                      <path d="M12.5 3.5 4 12"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card reveal" style="--stagger: 1;">
+              <div class="project-meta">
+                <span class="project-category">Personal Project</span>
+              </div>
+              <h3 class="project-title">Class Routine Scheduler</h3>
+              <p class="project-description">
+                A personal class scheduling project developed to organize academic routines.
+              </p>
+
+              <div class="project-footer">
+                <ul class="tech-list" aria-label="Implementation technologies">
+                  <li class="tech-tag">React</li>
+                  <li class="tech-tag">Vite</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://mostakim6817.github.io/Scheduler/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link project-link-primary"
+                  >
+                    <span>Live Demo</span>
+                    <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M6 3.5h6.5V10"/>
+                      <path d="M12.5 3.5 4 12"/>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://github.com/mostakim6817/Scheduler"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    <span>GitHub</span>
+                    <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M6 3.5h6.5V10"/>
+                      <path d="M12.5 3.5 4 12"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="project-card reveal" style="--stagger: 2;">
+              <div class="project-meta">
+                <span class="project-category">Personal Project</span>
+              </div>
+              <h3 class="project-title">AIUB Grade Calculator</h3>
+              <p class="project-description">
+                A lightweight web utility designed to help with academic grade calculations.
+              </p>
+
+              <div class="project-footer">
+                <ul class="tech-list" aria-label="Technologies used">
+                  <li class="tech-tag">HTML</li>
+                  <li class="tech-tag">CSS</li>
+                  <li class="tech-tag">JavaScript</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://mostakim6817.github.io/aiub_grade/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link project-link-primary"
+                  >
+                    <span>Live Demo</span>
+                    <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M6 3.5h6.5V10"/>
+                      <path d="M12.5 3.5 4 12"/>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://github.com/mostakim6817/aiub_grade"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    <span>GitHub</span>
+                    <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M6 3.5h6.5V10"/>
+                      <path d="M12.5 3.5 4 12"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Interests Section -->
+    <section class="section section-canvas" id="interests" aria-labelledby="interests-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-accent-line" aria-hidden="true"></span>
+          <p class="section-kicker">Technical Interests &amp; Areas of Exploration</p>
+          <h2 class="section-title" id="interests-heading">Exploring Beyond Software</h2>
+          <p class="section-subtitle">
+            I'm passionate about exploring smart technologies and building intelligent systems that connect software with the physical world.
+          </p>
+        </div>
+
+        <ol class="interests-list reveal">
+          <li class="interest-item">
+            <span class="interest-index" aria-hidden="true">01</span>
+            <h3 class="interest-title">Smart Automation Systems</h3>
+            <p class="interest-description">
+              Intelligent control systems, home automation and automated solutions.
+            </p>
+          </li>
+          <li class="interest-item">
+            <span class="interest-index" aria-hidden="true">02</span>
+            <h3 class="interest-title">Internet of Things (IoT)</h3>
+            <p class="interest-description">
+              Connected devices, smart monitoring and communication between hardware and software.
+            </p>
+          </li>
+          <li class="interest-item">
+            <span class="interest-index" aria-hidden="true">03</span>
+            <h3 class="interest-title">Embedded Systems &amp; ESP32</h3>
+            <p class="interest-description">
+              Microcontrollers, embedded programming and hardware-software integration.
+            </p>
+          </li>
+          <li class="interest-item">
+            <span class="interest-index" aria-hidden="true">04</span>
+            <h3 class="interest-title">Electronics &amp; Power Systems</h3>
+            <p class="interest-description">
+              Power electronics, inverter technology and electronic circuit design.
+            </p>
+          </li>
+          <li class="interest-item">
+            <span class="interest-index" aria-hidden="true">05</span>
+            <h3 class="interest-title">Renewable Energy &amp; Smart Energy Management</h3>
+            <p class="interest-description">
+              Solar energy, battery management, MPPT charging and intelligent power management.
+            </p>
+          </li>
+          <li class="interest-item">
+            <span class="interest-index" aria-hidden="true">06</span>
+            <h3 class="interest-title">Machine Learning &amp; Data Science</h3>
+            <p class="interest-description">
+              Currently learning data science and machine learning with Python to build intelligent, data-driven solutions.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-surface" id="education" aria-labelledby="education-heading">
+      <div class="container education-layout">
+        <div class="section-header-aside reveal">
+          <span class="section-accent-line" aria-hidden="true"></span>
+          <h2 class="section-title" id="education-heading">Education</h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline-item timeline-item-current reveal" style="--stagger: 0;">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-institution">American International University-Bangladesh (AIUB)</h3>
+                <span class="timeline-period timeline-period-active">5th Semester</span>
+              </div>
+              <p class="timeline-degree">BSc in Computer Science &amp; Engineering</p>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal" style="--stagger: 1;">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-institution">Ideal College, Dhanmondi</h3>
+                <span class="timeline-period">2024</span>
+              </div>
+              <p class="timeline-degree">Higher Secondary Certificate (HSC)</p>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal" style="--stagger: 2;">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-institution">Purbasadipur Government High School</h3>
+                <span class="timeline-period">2022</span>
+              </div>
+              <p class="timeline-degree">Secondary School Certificate (SSC)</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="section section-canvas" id="certificates" aria-labelledby="certificates-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-accent-line" aria-hidden="true"></span>
+          <h2 class="section-title" id="certificates-heading">Certificates &amp; Professional Development</h2>
+          <p class="section-subtitle">
+            Technical training, research seminars, and professional development sessions. Select any certificate to view it in full size.
+          </p>
+        </div>
+
+        <div class="certificates-grid">
+          <article class="certificate-card reveal" style="--stagger: 0;">
+            <button
+              type="button"
+              class="certificate-preview-btn"
+              data-cert-index="0"
+              data-cert-src="assets/images/cert-bytetocode.jpg"
+              data-cert-title="Data Science and Machine Learning with Python"
+              data-cert-meta="ByteToCode · Technical Training"
+              aria-label="Inspect full certificate: Data Science and Machine Learning with Python from ByteToCode"
+            >
+              <img
+                src="assets/images/cert-bytetocode.jpg"
+                alt="ByteToCode Certificate of Achievement for Data Science and Machine Learning with Python awarded to Md. Mostakim"
+                width="1400"
+                height="990"
+                loading="lazy"
+                decoding="async"
+              >
+              <span class="certificate-zoom-cue" aria-hidden="true">View Full Size</span>
+            </button>
+            <div class="certificate-body">
+              <div class="certificate-meta">
+                <span class="certificate-org">ByteToCode</span>
+                <span class="certificate-detail">Technical Training</span>
+              </div>
+              <h3 class="certificate-title">Data Science and Machine Learning with Python</h3>
+            </div>
+          </article>
+
+          <article class="certificate-card reveal" style="--stagger: 1;">
+            <button
+              type="button"
+              class="certificate-preview-btn"
+              data-cert-index="1"
+              data-cert-src="assets/images/cert-aiub-cnr.jpg"
+              data-cert-title="Research, Publication, International Collaboration & Higher Studies in Advanced Materials and Energy Technology"
+              data-cert-meta="AIUB Center for Nanotechnology Research · 12 July 2026"
+              aria-label="Inspect full certificate: Research, Publication, International Collaboration and Higher Studies in Advanced Materials and Energy Technology"
+            >
+              <img
+                src="assets/images/cert-aiub-cnr.jpg"
+                alt="AIUB Center for Nanotechnology Research Certificate of Participation awarded to Md. Mostakim on 12 July 2026"
+                width="1400"
+                height="990"
+                loading="lazy"
+                decoding="async"
+              >
+              <span class="certificate-zoom-cue" aria-hidden="true">View Full Size</span>
+            </button>
+            <div class="certificate-body">
+              <div class="certificate-meta">
+                <span class="certificate-org">AIUB Center for Nanotechnology Research</span>
+                <span class="certificate-detail">12 July 2026</span>
+              </div>
+              <h3 class="certificate-title">Research, Publication, International Collaboration &amp; Higher Studies in Advanced Materials and Energy Technology</h3>
+            </div>
+          </article>
+
+          <article class="certificate-card reveal" style="--stagger: 2;">
+            <button
+              type="button"
+              class="certificate-preview-btn"
+              data-cert-index="2"
+              data-cert-src="assets/images/cert-prime-bank.jpg"
+              data-cert-title="Financial Inclusion: Engaging and Inspiring Youth in Banking Season 2.0"
+              data-cert-meta="Prime Bank PLC · 19 August 2026"
+              aria-label="Inspect full certificate: Financial Inclusion: Engaging and Inspiring Youth in Banking Season 2.0 from Prime Bank PLC"
+            >
+              <img
+                src="assets/images/cert-prime-bank.jpg"
+                alt="Prime Bank PLC Certificate of Appreciation for Financial Inclusion: Engaging and Inspiring Youth in Banking Season 2.0 dated 19 August 2026"
+                width="1400"
+                height="986"
+                loading="lazy"
+                decoding="async"
+              >
+              <span class="certificate-zoom-cue" aria-hidden="true">View Full Size</span>
+            </button>
+            <div class="certificate-body">
+              <div class="certificate-meta">
+                <span class="certificate-org">Prime Bank PLC</span>
+                <span class="certificate-detail">19 August 2026</span>
+              </div>
+              <h3 class="certificate-title">Financial Inclusion: Engaging and Inspiring Youth in Banking Season 2.0</h3>
+            </div>
+          </article>
+
+          <article class="certificate-card reveal" style="--stagger: 3;">
+            <button
+              type="button"
+              class="certificate-preview-btn"
+              data-cert-index="3"
+              data-cert-src="assets/images/cert-bkash.jpg"
+              data-cert-title="Financial Freedom: Take Charge of Your Personal Finances"
+              data-cert-meta="bKash · 27 August 2025"
+              aria-label="Inspect full certificate: Financial Freedom: Take Charge of Your Personal Finances from bKash"
+            >
+              <img
+                src="assets/images/cert-bkash.jpg"
+                alt="bKash Certificate presented to Md. Mostakim for participating in Financial Freedom: Take Charge of Your Personal Finances on 27 August 2025"
+                width="1400"
+                height="990"
+                loading="lazy"
+                decoding="async"
+              >
+              <span class="certificate-zoom-cue" aria-hidden="true">View Full Size</span>
+            </button>
+            <div class="certificate-body">
+              <div class="certificate-meta">
+                <span class="certificate-org">bKash</span>
+                <span class="certificate-detail">27 August 2025</span>
+              </div>
+              <h3 class="certificate-title">Financial Freedom: Take Charge of Your Personal Finances</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Freelance & Client Work (Compact Secondary Section) -->
+    <section class="section section-compact section-surface" id="freelance" aria-labelledby="freelance-heading">
+      <div class="container">
+        <div class="section-header section-header-compact reveal">
+          <span class="section-accent-line" aria-hidden="true"></span>
+          <h2 class="section-title section-title-secondary" id="freelance-heading">Freelance &amp; Client Work</h2>
+          <p class="section-subtitle">
+            Selected client web implementations alongside my personal and academic software work.
+          </p>
+        </div>
+
+        <div class="freelance-grid">
+          <article class="case-study-card reveal" style="--stagger: 0;">
+            <p class="case-study-label">Case Study 01</p>
+            <h3 class="case-study-title">Smart App Distribution &amp; Device-Aware Redirect Solutions</h3>
+            <p class="case-study-description">
+              Developed device-aware redirection pages that identify the visitor's platform and direct users to the appropriate application store or website.
+            </p>
+
+            <ul class="tech-list tech-list-compact" aria-label="Technologies used">
+              <li class="tech-tag">HTML</li>
+              <li class="tech-tag">CSS</li>
+              <li class="tech-tag">JavaScript</li>
+              <li class="tech-tag">Device Detection</li>
+              <li class="tech-tag">Meta Pixel</li>
+            </ul>
+
+            <div class="repo-group">
+              <span class="repo-group-label">Source Repositories:</span>
+              <ul class="repo-links">
+                <li><a href="https://github.com/xoxomr/ridelia" target="_blank" rel="noopener noreferrer">ridelia</a></li>
+                <li><a href="https://github.com/xoxomr/app" target="_blank" rel="noopener noreferrer">app</a></li>
+                <li><a href="https://github.com/xoxomr/maerid" target="_blank" rel="noopener noreferrer">maerid</a></li>
+                <li><a href="https://github.com/xoxomr/birthdayowl" target="_blank" rel="noopener noreferrer">birthdayowl</a></li>
+                <li><a href="https://github.com/xoxomr/wrenchspeak" target="_blank" rel="noopener noreferrer">wrenchspeak</a></li>
+                <li><a href="https://github.com/xoxomr/mraqar" target="_blank" rel="noopener noreferrer">mraqar</a></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="case-study-card reveal" style="--stagger: 1;">
+            <p class="case-study-label">Case Study 02</p>
+            <h3 class="case-study-title">Cafe Review Landing Page</h3>
+            <p class="case-study-description">
+              A landing page designed to direct visitors to a Google review experience, with an animated review button and an email collection form.
+            </p>
+
+            <ul class="tech-list tech-list-compact" aria-label="Technologies used">
+              <li class="tech-tag">HTML</li>
+              <li class="tech-tag">CSS</li>
+              <li class="tech-tag">JavaScript</li>
+              <li class="tech-tag">Google Apps Script</li>
+            </ul>
+
+            <div class="repo-group">
+              <span class="repo-group-label">Live Demo &amp; Source Repository:</span>
+              <ul class="repo-links">
+                <li>
+                  <a href="https://mostakim6817.github.io/cafe/" target="_blank" rel="noopener noreferrer" class="repo-link-demo">
+                    Live Demo
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/mostakim6817/cafe" target="_blank" rel="noopener noreferrer">
+                    mostakim6817/cafe
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Online Profiles Section -->
+    <section class="section section-compact section-canvas" id="profiles" aria-labelledby="profiles-heading">
+      <div class="container">
+        <div class="section-header section-header-compact reveal">
+          <span class="section-accent-line" aria-hidden="true"></span>
+          <h2 class="section-title" id="profiles-heading">Find Me Online</h2>
+        </div>
+
+        <ul class="profiles-grid">
+          <li class="reveal" style="--stagger: 0;">
+            <a href="https://github.com/mostakim6817" target="_blank" rel="noopener noreferrer" class="profile-card">
+              <div class="profile-card-top">
+                <span class="profile-name">GitHub</span>
+                <svg class="profile-arrow" viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M6 3.5h6.5V10"/>
+                  <path d="M12.5 3.5 4 12"/>
+                </svg>
+              </div>
+              <span class="profile-handle">@mostakim6817</span>
+            </a>
+          </li>
+
+          <li class="reveal" style="--stagger: 1;">
+            <a href="https://www.linkedin.com/in/mostakimx/" target="_blank" rel="noopener noreferrer" class="profile-card">
+              <div class="profile-card-top">
+                <span class="profile-name">LinkedIn</span>
+                <svg class="profile-arrow" viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M6 3.5h6.5V10"/>
+                  <path d="M12.5 3.5 4 12"/>
+                </svg>
+              </div>
+              <span class="profile-handle">in/mostakimx</span>
+            </a>
+          </li>
+
+          <li class="reveal" style="--stagger: 2;">
+            <a href="https://codeforces.com/profile/mostakim.x" target="_blank" rel="noopener noreferrer" class="profile-card">
+              <div class="profile-card-top">
+                <span class="profile-name">Codeforces</span>
+                <svg class="profile-arrow" viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M6 3.5h6.5V10"/>
+                  <path d="M12.5 3.5 4 12"/>
+                </svg>
+              </div>
+              <span class="profile-handle">mostakim.x</span>
+            </a>
+          </li>
+
+          <li class="reveal" style="--stagger: 3;">
+            <a href="https://www.hackerrank.com/profile/edu_mostakim" target="_blank" rel="noopener noreferrer" class="profile-card">
+              <div class="profile-card-top">
+                <span class="profile-name">HackerRank</span>
+                <svg class="profile-arrow" viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M6 3.5h6.5V10"/>
+                  <path d="M12.5 3.5 4 12"/>
+                </svg>
+              </div>
+              <span class="profile-handle">edu_mostakim</span>
+            </a>
+          </li>
+
+          <li class="reveal" style="--stagger: 4;">
+            <a href="https://wa.me/8801921090769" target="_blank" rel="noopener noreferrer" class="profile-card">
+              <div class="profile-card-top">
+                <span class="profile-name">WhatsApp</span>
+                <svg class="profile-arrow" viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M6 3.5h6.5V10"/>
+                  <path d="M12.5 3.5 4 12"/>
+                </svg>
+              </div>
+              <span class="profile-handle">+880 1921-090769</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-surface" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <div class="contact-intro">
+            <span class="section-accent-line" aria-hidden="true"></span>
+            <h2 class="section-title" id="contact-heading">Let's Connect</h2>
+            <p class="contact-description">
+              Have a project, collaboration, or opportunity in mind? Feel free to reach out.
+            </p>
+
+            <dl class="contact-details">
+              <div class="contact-detail-row">
+                <dt>Email</dt>
+                <dd>
+                  <a href="mailto:edu.mostakim@gmail.com" class="contact-email-link">edu.mostakim@gmail.com</a>
+                </dd>
+              </div>
+              <div class="contact-detail-row">
+                <dt>WhatsApp</dt>
+                <dd>
+                  <a href="https://wa.me/8801921090769" target="_blank" rel="noopener noreferrer" class="contact-email-link">+880 1921-090769</a>
+                </dd>
+              </div>
+              <div class="contact-detail-row">
+                <dt>Location</dt>
+                <dd>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=164%2F2%2C+Road+8%2C+Block+C%2C+Bashundhara+R%2FA%2C+Dhaka%2C+Bangladesh"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-location-link"
+                    aria-label="Open 164/2, Road 8, Block C, Bashundhara R/A, Dhaka, Bangladesh in Google Maps"
+                  >
+                    <span>164/2, Road 8, Block C, Bashundhara R/A, Dhaka, Bangladesh</span>
+                    <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M6 3.5h6.5V10"/>
+                      <path d="M12.5 3.5 4 12"/>
+                    </svg>
+                  </a>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="contact-actions-box">
+            <p class="contact-actions-label">Direct Channels</p>
+            <div class="contact-primary-actions">
+              <a href="mailto:edu.mostakim@gmail.com" class="btn btn-primary btn-block">
+                <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2.5" y="4.5" width="15" height="11" rx="1.5"/>
+                  <path d="m3.5 5.5 6.5 5 6.5-5"/>
+                </svg>
+                <span>Send an Email</span>
+              </a>
+              <button
+                type="button"
+                class="btn btn-secondary btn-block"
+                id="copy-email-btn"
+                data-email="edu.mostakim@gmail.com"
+              >
+                <span id="copy-email-label">Copy Email Address</span>
+              </button>
+              <span class="sr-only" id="copy-email-status" role="status" aria-live="polite"></span>
+            </div>
+
+            <div class="contact-secondary-links">
+              <a href="https://wa.me/8801921090769" target="_blank" rel="noopener noreferrer" class="contact-channel-link">
+                <span>WhatsApp</span>
+                <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M6 3.5h6.5V10"/>
+                  <path d="M12.5 3.5 4 12"/>
+                </svg>
+              </a>
+              <a href="https://github.com/mostakim6817" target="_blank" rel="noopener noreferrer" class="contact-channel-link">
+                <span>GitHub</span>
+                <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M6 3.5h6.5V10"/>
+                  <path d="M12.5 3.5 4 12"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/mostakimx/" target="_blank" rel="noopener noreferrer" class="contact-channel-link">
+                <span>LinkedIn</span>
+                <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M6 3.5h6.5V10"/>
+                  <path d="M12.5 3.5 4 12"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Minimal Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; 2026 Md. Mostakim. All rights reserved.</p>
+      <ul class="footer-socials" aria-label="Footer Social Links">
+        <li><a href="https://github.com/mostakim6817" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/mostakimx/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://codeforces.com/profile/mostakim.x" target="_blank" rel="noopener noreferrer">Codeforces</a></li>
+        <li><a href="https://www.hackerrank.com/profile/edu_mostakim" target="_blank" rel="noopener noreferrer">HackerRank</a></li>
+        <li><a href="https://wa.me/8801921090769" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Accessible Certificate Lightbox Modal -->
+  <div
+    class="lightbox"
+    id="certificate-lightbox"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="lightbox-title"
+    aria-hidden="true"
+    hidden
+  >
+    <div class="lightbox-backdrop" data-lightbox-close></div>
+    <div class="lightbox-dialog">
+      <div class="lightbox-header">
+        <div class="lightbox-heading-group">
+          <h3 class="lightbox-title" id="lightbox-title"></h3>
+          <p class="lightbox-meta" id="lightbox-meta"></p>
+        </div>
+        <button
+          type="button"
+          class="lightbox-close"
+          id="lightbox-close"
+          aria-label="Close certificate preview"
+        >
+          <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+            <path d="M5 5l10 10M15 5 5 15"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="lightbox-media">
+        <img id="lightbox-image" src="" alt="">
+      </div>
+
+      <div class="lightbox-controls">
+        <button type="button" class="lightbox-nav-btn" id="lightbox-prev" aria-label="Previous certificate">
+          &larr; Previous
+        </button>
+        <span class="lightbox-counter" id="lightbox-counter">1 / 4</span>
+        <button type="button" class="lightbox-nav-btn" id="lightbox-next" aria-label="Next certificate">
+          Next &rarr;
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
